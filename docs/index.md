@@ -14,7 +14,7 @@
 3. 在订单确认页，核对实例信息与费用，点击 **立即创建** 开始自动部署。
 
 4. 部署完成后远程链接ECS。
-    ![image.png](img_3.png)
+    ![image.png](img_4.png)
 
 5. 执行命令与HermesAgent进行交互。
     ```shell
