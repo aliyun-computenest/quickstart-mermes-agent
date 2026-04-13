@@ -20,7 +20,6 @@ Deploy once, evolve continuously. Hermes Agent understands you better with every
     hermes
     ```
     ![image.png](img_1.png)
-    ![image.png](img_2.png)
     
 ## 📚 User Guide
 
