@@ -24,3 +24,4 @@ Deploy once, evolve continuously. Hermes Agent understands you better with every
 ## 📚 User Guide
 
 For channel configuration, please refer to the HermesAgent [Official Documentation](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/).
+ff

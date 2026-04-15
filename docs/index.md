@@ -6,24 +6,26 @@
 
 ## 🚀 部署流程
 
-1. 访问计算巢 HermesAgent 社区版 [部署链接](https://computenest.console.aliyun.com/service/instance/create/cn-hangzhou?type=user&ServiceId=service-279af6340fcd4f48bfe4)，按页面提示填写部署参数：  
-    ![image.png](img.png)
+1. 访问计算巢 HermesAgent
+   社区版 [部署链接](https://computenest.console.aliyun.com/service/instance/create/cn-hangzhou?type=user&ServiceId=service-279af6340fcd4f48bfe4)，按页面提示填写部署参数：  
+   ![image.png](img.png)
 
 2. 参数配置完成后，系统将自动生成**费用预估明细**。确认无误后点击 **下一步：确认订单**。
 
 3. 在订单确认页，核对实例信息与费用，点击 **立即创建** 开始自动部署。
 
-4. 部署完成后远程链接ECS。
-    ![image.png](img_4.png)
+4. 部署完成后远程链接ECS。资源>资源ID>ECS详情页>远程连接>通过Workbench远程连接：
+   ![image.png](img_3.png)
+   ![image.png](img_5.png)
 
 5. 执行命令与HermesAgent进行交互。
     ```shell
     sudo su root
     hermes
     ```
-    ![image.png](img_1.png)
-    ![image.png](img_2.png)
-    
+   ![image.png](img_1.png)
+   ![image.png](img_2.png)
+
 ## 📚 使用指南
 
 配置频道请参考 HermesAgent [官方文档](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/) 。
