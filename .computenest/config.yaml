@@ -1,0 +1,116 @@
+Service:
+  DeployType: ros
+  DeployMetadata:
+    SupplierDeployMetadata:
+      DeployTimeout: 7200
+      ArtifactRelation:
+        m-j6c6qq3wujq6zyx87kh4:
+          ArtifactId: ${Artifact.Artifact_1.ArtifactId}
+          ArtifactVersion: ${Artifact.Artifact_1.ArtifactVersion}
+      SupplierTemplateConfigs:
+        - Name: 单机版
+          Url: 
+            https://service-info-private.oss-cn-hangzhou.aliyuncs.com/1853370294850618/template/c1e26dc7-d759-46f7-8176-240ca700ce99.json?Expires=1776736875&OSSAccessKeyId=LTAI5tCYphFhocJemeMWmXst&Signature=ehNC43kShFH6WOcq%2F2EJA8dbubk%3D
+          PredefinedParameters: []
+          AllowedRegions:
+            - cn-qingdao
+            - cn-beijing
+            - cn-zhangjiakou
+            - cn-huhehaote
+            - cn-wulanchabu
+            - cn-hangzhou
+            - cn-shanghai
+            - cn-shenzhen
+            - cn-heyuan
+            - cn-guangzhou
+            - cn-chengdu
+            - cn-hongkong
+            - ap-northeast-1
+            - ap-northeast-2
+            - ap-southeast-1
+            - us-east-1
+            - us-west-1
+            - eu-west-1
+            - eu-central-1
+    TemplateConfigs:
+      - Name: 单机版
+        Url: ros_templates/template1.yaml
+        AllowedRegions:
+          - cn-qingdao
+          - cn-beijing
+          - cn-zhangjiakou
+          - cn-huhehaote
+          - cn-wulanchabu
+          - cn-hangzhou
+          - cn-shanghai
+          - cn-shenzhen
+          - cn-heyuan
+          - cn-guangzhou
+          - cn-chengdu
+          - cn-hongkong
+          - ap-northeast-1
+          - ap-northeast-2
+          - ap-southeast-1
+          - us-east-1
+          - us-west-1
+          - eu-west-1
+          - eu-central-1
+        PredefinedParameters: []
+        ArchitectureDiagramUrl: 
+          https://service-info-private.oss-cn-hangzhou.aliyuncs.com/1853370294850618/architecture/ed9b61b5-d443-460b-a9bc-7f938eb39e85.jpg?Expires=1776736875&OSSAccessKeyId=LTAI5tCYphFhocJemeMWmXst&Signature=Y1a0IAUJpfabX2qD2RmKvVDSxfk%3D
+        DeployScene: ECS
+        OutputConfigs:
+          - OutputKey: HermesAgent Private Addresses
+            EnableWebProxy: true
+    NetworkMetadata:
+      EnablePrivateVpcConnection: false
+      EnableReversePrivateVpcConnection: false
+    ServiceInstanceNameRule:
+      Prefix: hermes_agent-
+      UseDefaultValue: true
+  OperationMetadata:
+    SupportBackup: false
+    PrometheusConfigMap:
+      单机版:
+        EnablePrometheus: false
+  ServiceType: private
+  ServiceInfo:
+    Locale: zh-CN
+    ShortDescription: Hermes Agent是由Nous Research开发的一款开源自主AI智能体，它运行在你的服务器上，拥有持久化记忆，能随着使用时间的增长不断变强。它具备完整的自我学习闭环：自主创建技能、在使用中改进技能、跨会话召回记忆，真正做到"越用越聪明"。
+    Image: resources/icons/service_logo.png
+    Name: Hermes Agent 社区版
+  ShareType: Public
+  ApprovalType: Manual
+Artifact:
+  Artifact_1:
+    ArtifactType: EcsImage
+    ArtifactName: hermes_agent
+    Description: Hermes_Agent_0415_1726
+    ArtifactProperty:
+      ImageId: m-mj78shr604rssfbpd1bd
+      RegionId: ap-northeast-2
+    SupportRegionIds:
+      - cn-qingdao
+      - cn-beijing
+      - cn-zhangjiakou
+      - cn-huhehaote
+      - cn-wulanchabu
+      - cn-hangzhou
+      - cn-shanghai
+      - cn-shenzhen
+      - cn-chengdu
+      - cn-heyuan
+      - cn-guangzhou
+      - cn-hongkong
+      - ap-northeast-1
+      - ap-southeast-1
+      - ap-southeast-3
+      - ap-southeast-5
+      - ap-southeast-6
+      - us-east-1
+      - us-west-1
+      - eu-west-1
+      - eu-central-1
+      - ap-southeast-7
+      - ap-northeast-2
+      - cn-wuhan-lr
